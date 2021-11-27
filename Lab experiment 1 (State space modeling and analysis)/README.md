@@ -1,3 +1,11 @@
+The details of each part of lab is given as
+1. [lab1_part1](#lab1_part1).
+2. [lab1_part2](#lab1-part2).
+3. [lab1_part3](#lab1_part3).
+4. [lab1_part4](#lab1_part4).
+5. [lab1_part5](#lab1_part5).
+6. [lab1_part6](#lab1_part6).
+
 # lab1_part1
 For a discrete system：
 y(k + 2) + 4 y(k +1) + 5y(k) = u(K + 2) + 2u(k +1) + u(k)
@@ -11,7 +19,7 @@ The Caluculation and derivation can be seen [Lab1_117035990004_Mahmood-ul-hassan
 2) To find the state space model from computed transfer function we will use tf2ss(numerator, denominator) command which will give us the matrix A, B, C, D.
 3) To find the poles and zeroes from computed transfer function we will use the command [poles,zeros]= pzmap(TranFun).
 
-# lab1_part2
+# lab1 part2
 
 ## Matlab Steps 
 1. In Matlab for finding the transfer function of MIMO system we use two different methods.
@@ -52,7 +60,7 @@ Matlab Result of eigenvalues is given [Lab1_117035990004_Mahmood-ul-hassan.pdf](
 ## Matlab Steps 
 We define the  matrix A in matlab then we find e^At using matlab function expm(t*A), After that we find the value of eAt when t=0.3 using matlab function expm(0.3*A).
 
-
+# lab1_part6
 ## Matlab Steps 
 1)	From the given state space model we define the matrix A, B, C, D and initial condition x0, after that we define state space model “sys = ss(A,B,C,D)”. 
 2)	We generate the square wave as a input signal with period of 3s and the duration is (0-10)s using matlab command “u=square(2*pi*f*t)”.
