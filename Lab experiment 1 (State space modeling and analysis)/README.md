@@ -31,4 +31,5 @@ A=[■(0&1@-5&-4)],B=[■(0@1)],      C=[■(-4&-2)],       D=1
             1. we use “ss(Transfer fun)” command which will give us state space parameters
             2. we use “ssdata(ss(Transfer fun,’min’))” command which will give us state space parameters.
 3. To find the poles and zeroes from computed transfer function we will use the comand [poles,zeros]= pzmap(TranFun).
+
 ## Matlab Result
