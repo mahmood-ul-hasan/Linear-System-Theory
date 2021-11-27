@@ -38,9 +38,3 @@ A=[■(0&1@-5&-4)],B=[■(0@1)],      C=[■(-4&-2)],       D=1
 
 ## Matlab Result
 
-1. A numbered list
-
-              1. A nested numbered list
-              
-              3. Which is numbered
-2. Which is numbered
