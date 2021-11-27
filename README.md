@@ -30,3 +30,19 @@ input that has a period of 3s.
 A complete lab report must include the following:
 1) Your steps/calculations and answers (including figures).
 2) Your MATLAB program.
+
+## Lab Experiment 2 (State space modeling of an inverted pendulum system)
+### 1 Objectives
+1) Learn how to build the state space model of a real system using MATLAB.
+2) How to analyze and linearize a real system.
+3) Learn how to find different forms of a system using similarity transformation.
+### 2 Experiment steps
+According to the given linear model, assume that:
+state variables: movement y ,speed y ,angle , angle rate
+input: force u
+output: movement y
+1) Build a state space model of the system and determine the parameters.
+2) Find poles of the system by using the similarity transformation.
+3) Find controllable canonical form of the system by similarity transformation and calculate the transformation matrix.
+4) Find observable canonical form of the system by similarity transformation and calculate the transformation matrix.
+5) Find the transfer function of the system.
