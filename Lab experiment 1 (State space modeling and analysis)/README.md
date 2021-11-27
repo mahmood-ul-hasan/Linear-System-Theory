@@ -1,6 +1,6 @@
 The details of each part of lab is given as
 1. [lab1_part1](#lab1_part1).
-2. [lab1_part2](#lab1-part2).
+2. [lab1_part2](#lab1_part2).
 3. [lab1_part3](#lab1_part3).
 4. [lab1_part4](#lab1_part4).
 5. [lab1_part5](#lab1_part5).
@@ -19,7 +19,7 @@ The Caluculation and derivation can be seen [Lab1_117035990004_Mahmood-ul-hassan
 2) To find the state space model from computed transfer function we will use tf2ss(numerator, denominator) command which will give us the matrix A, B, C, D.
 3) To find the poles and zeroes from computed transfer function we will use the command [poles,zeros]= pzmap(TranFun).
 
-# lab1 part2
+# lab1_part2
 
 ## Matlab Steps 
 1. In Matlab for finding the transfer function of MIMO system we use two different methods.
