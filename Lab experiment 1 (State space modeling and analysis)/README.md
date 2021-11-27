@@ -47,3 +47,13 @@ Matlab Result of Transfer Function is given  [Lab1_117035990004_Mahmood-ul-hassa
 ## Matlab Result
 Matlab Result of eigenvalues is given [Lab1_117035990004_Mahmood-ul-hassan.pdf](https://github.com/mahmood-ul-hasan/Linear-System-Theory/blob/main/Lab%20experiment%201%20(State%20space%20modeling%20and%20analysis)/Lab1_117035990004_Mahmood-ul-hassan.pdf).
 
+
+# lab1_part5
+## Matlab Steps 
+We define the  matrix A in matlab then we find e^At using matlab function expm(t*A), After that we find the value of eAt when t=0.3 using matlab function expm(0.3*A).
+# Matlab Steps 
+1)	From the given state space model we define the matrix A, B, C, D and initial condition x0, after that we define state space model “sys = ss(A,B,C,D)”. 
+2)	We generate the square wave as a input signal with period of 3s and the duration is (0-10)s using matlab command “u=square(2*pi*f*t)”.
+3)	We find the initial response of state space model using “initial(sys,x0)” command.
+4)	We find the unit step response of state space model using “step(sys)” command.
+5)	We compute the output with square wave using “lsim(sys,u,t,x0)”.
