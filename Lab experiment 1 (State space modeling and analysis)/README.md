@@ -18,9 +18,8 @@ Controllable canonical form Realization is
 A=[■(0&1@-5&-4)],B=[■(0@1)],      C=[■(-4&-2)],       D=1
 
 ### Matlab Steps 
-	In Matlab for finding the transfer function we define numerator and denominator of above equation eq(1) and set the sample time (Ts) for discrete time transfer function by using the command tf (numerator, denominator, Ts).
-	To find the state space model from computed transfer function we will use
-tf2ss(numerator, denominator) command which will give us the matrix A, B, C, D.
-	To find the poles and zeroes from computed transfer function we will use the command [poles,zeros]= pzmap(TranFun).
+1) In Matlab for finding the transfer function we define numerator and denominator of above equation eq(1) and set the sample time (Ts) for discrete time transfer function by using the command tf (numerator, denominator, Ts).
+2) To find the state space model from computed transfer function we will use tf2ss(numerator, denominator) command which will give us the matrix A, B, C, D.
+3) To find the poles and zeroes from computed transfer function we will use the command [poles,zeros]= pzmap(TranFun).
 
 
