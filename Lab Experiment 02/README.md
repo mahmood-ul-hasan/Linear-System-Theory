@@ -15,7 +15,6 @@ output: movement y
 4) Find observable canonical form of the system by similarity transformation and calculate the transformation matrix.
 5) Find the transfer function of the system.
 
-[Lab2_part1](# Lab2_part1)
 
 # Lab2_part1
 ## Calcualtion 
