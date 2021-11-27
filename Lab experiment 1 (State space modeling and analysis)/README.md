@@ -33,3 +33,8 @@ A=[■(0&1@-5&-4)],B=[■(0@1)],      C=[■(-4&-2)],       D=1
 3. To find the poles and zeroes from computed transfer function we will use the comand [poles,zeros]= pzmap(TranFun).
 
 ## Matlab Result
+
+1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+2. Which is numbered
