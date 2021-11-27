@@ -6,7 +6,7 @@ transformation between them using MATLAB.
 2) Learn how to find the solution to the state space model using MATLAB.
 3) Learn how to add different inputs to a system and observe the outputs of the system.
 ### 2 Overview of each lab part
-The equation used here is given in  [Lab1_117035990004_Mahmood-ul-hassan.pdf](https://github.com/mahmood-ul-hasan/Linear-System-Theory/blob/main/Lab%20experiment%201%20(State%20space%20modeling%20and%20analysis)/Lab1_117035990004_Mahmood-ul-hassan.pdf).
+The equations used here are given in  [Lab1_117035990004_Mahmood-ul-hassan.pdf](https://github.com/mahmood-ul-hasan/Linear-System-Theory/blob/main/Lab%20experiment%201%20(State%20space%20modeling%20and%20analysis)/Lab1_117035990004_Mahmood-ul-hassan.pdf).
 1) For a discrete system：
 y(k + 2) + 4 y(k +1) + 5y(k) = u(K + 2) + 2u(k +1) + u(k)
 Find the transfer function of the system using function tf(), set up the state space
