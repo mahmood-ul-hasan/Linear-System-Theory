@@ -24,12 +24,11 @@ A=[■(0&1@-5&-4)],B=[■(0@1)],      C=[■(-4&-2)],       D=1
 # lab1_part2
 
 ## Matlab Steps 
-Markup : 1.	In Matlab for finding the transfer function of MIMO system we use two different methods.
-           1.	Method (01) = For given MIMO system we define numerator and denominator of each element of given matrix by using the command “tf (numerator, denominator)”, after this compile all the entries in single matrix form.
-           2. Method (02) = We create a matrix “MIMO_num” contains all numerator of MIMO matrix and also create another matrix “MIMO_den” contains all denominator of MIMO matrix, then find the transfer function using command “tf(MIMO_num, MIMO_den)”.
-2)	In Matlab for finding the state space model of MIMO system we use two different methods.
-
-a.	we use “ss(Transfer fun)” command which will give us state space parameters
-b.	we use “ssdata(ss(Transfer fun,’min’))” command which will give us state space parameters.
-3)	To find the poles and zeroes from computed transfer function we will use the comand [poles,zeros]= pzmap(TranFun).
+1.In Matlab for finding the transfer function of MIMO system we use two different methods.
+             1.Method (01) = For given MIMO system we define numerator and denominator of each element of given matrix by using the command “tf (numerator, denominator)”, after this compile all the entries in single matrix form.
+             2. Method (02) = We create a matrix “MIMO_num” contains all numerator of MIMO matrix and also create another matrix “MIMO_den” contains all denominator of MIMO matrix, then find the transfer function using command “tf(MIMO_num, MIMO_den)”.
+2. In Matlab for finding the state space model of MIMO system we use two different methods.
+            1. we use “ss(Transfer fun)” command which will give us state space parameters
+            2. we use “ssdata(ss(Transfer fun,’min’))” command which will give us state space parameters.
+3. To find the poles and zeroes from computed transfer function we will use the comand [poles,zeros]= pzmap(TranFun).
 ## Matlab Result
